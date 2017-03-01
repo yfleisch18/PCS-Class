@@ -1,14 +1,7 @@
 'use strict';
 'use strict';
 
-const http = require('http'),
-    fs = require('fs'),
-    path = require('path'),
-    contentType = {
-        '.html': 'text/html',
-        '.css': 'text/css',
-        '.js': 'application/javascript'
-    };
+const fs = require('fs');
 var data,
     list;
 
