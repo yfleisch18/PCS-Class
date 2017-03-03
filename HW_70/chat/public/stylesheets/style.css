@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: orangered;
+  
+}
+#headerWell{
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedbe9+0,3a84c3+0,aac5de+17,3a8bc2+28,3a8bc2+28,6199c7+50,419ad6+59,4bb8f0+78,26558b+100 */
+    background: rgb(206,219,233); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(206,219,233,1) 0%, rgba(58,132,195,1) 0%, rgba(170,197,222,1) 17%, rgba(58,139,194,1) 28%, rgba(58,139,194,1) 28%, rgba(97,153,199,1) 50%, rgba(65,154,214,1) 59%, rgba(75,184,240,1) 78%, rgba(38,85,139,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(206,219,233,1) 0%,rgba(58,132,195,1) 0%,rgba(170,197,222,1) 17%,rgba(58,139,194,1) 28%,rgba(58,139,194,1) 28%,rgba(97,153,199,1) 50%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 78%,rgba(38,85,139,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(206,219,233,1) 0%,rgba(58,132,195,1) 0%,rgba(170,197,222,1) 17%,rgba(58,139,194,1) 28%,rgba(58,139,194,1) 28%,rgba(97,153,199,1) 50%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 78%,rgba(38,85,139,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+
+}
+a {
+  color: #00B7FF;
+}
+
+#messages {
+  height: 200px;
+  border: 1px solid black;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  overflow:auto;
+  background-color: ghostwhite;
+}
+
+#message {
+  width: 85%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius:2px;
+}
+#chatStuff #submit{
+  position:absolute;
+  right: 130px;
+}
+#chatStuff #refresh{
+  position:absolute;
+  right: 35px;
+}
+#passwordForm{
+    width: 55%;
+    padding: 3%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    border: 4px double white;
+}
+#chatStuff{
+  display:none;
+  background-color: cornflowerblue;
+  border: 2px solid lightsteelblue;
+  position: relative;
+}
+#serverMessage{
+  display: block;
+  opacity: .50;
+}
+#serverContent{
+  display:inline-block;
+  text-indent: 40px;
+}
