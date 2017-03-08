@@ -1,0 +1,19 @@
+1.>use school
+
+2.> db.students.insert({first_name: "Donald", last_name: "Trump", addrress: "1200 Washington Avenue", grade: 11})
+3.> db.students.insert({first_name: "Hillary", last_name: "Clinton", addrress: "5 Chapaqua Drive", grade: 10})
+   > db.students.insert({first_name: "Bill", last_name: "Clinton", addrress: "5 Chapaqua Drive", grade: 11})
+   > db.students.insert({first_name: "Rience", last_name: "Priebus", addrress: "3000 New York Avenue", grade: 9})
+   > db.students.insert({first_name: "Steven", last_name: "Miller", addrress: "45 Bathcrest Drive", grade: 10})
+
+4.> db.students.find({first_name: "Donald"})
+
+5.> db.students.find({first_name: "Donald",grade: 5})
+
+6.>use store
+
+7.+ 8.> db.products.insert([{name: "mp3 player", price: 50},{name: "computer",price: 400}])
+
+9.> db.products.find()
+
+10.> db.products.remove({})
